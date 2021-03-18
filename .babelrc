@@ -1,0 +1,10 @@
+// Aniadimos configuraciones de babel utilizando . al inicio del archivo gracias a un estandar utilizado en unix
+
+{
+    "presets": [ // Aniadiremos nuestro preset dentro de un arreglo ya que podemos contar con una cantidad n de estos mismos
+        "@babel/preset-env"
+    ],
+    "plugins": [ // De igual forma nuestros plugins van aniadidos en un array
+        "@babel/plugin-transform-runtime"
+    ]
+}
